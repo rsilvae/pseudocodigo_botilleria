@@ -1,0 +1,21 @@
+class Producto
+{
+#inicio atributos
+
+name='' #nombre
+stock = 0 #cantidad
+critical_stock = 0 #cantidad critica
+sell_price = 0 #precio de venta
+expiration_date = '' #fecha de vencimiento
+sells_per_month = 0 '' #ventas por mes
+buy_price = 0 #precio de compra
+barcode = '' #codigo de barra
+on_discount = bool #si esta en descuento
+discount = 0 # descuento
+
+#fin atributos
+
+#inicio metodos
+
+set_discount() 
+critical_stock_warning()
